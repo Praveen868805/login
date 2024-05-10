@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #57c4a6;
+        }
+        @media(max-width:600px){
+            .header{
+                width: 90px;
+                margin: 0%;
+            }
+        }
+        .Login{
+            text-align:center ;
+            color: #57c7a6;
+            border-radius: 2%;
+        }
+       .header {
+        width: 50%;
+        margin: auto;
+        padding: 2% 4%  ;
+        background-color: white;
+        border-radius: 5%;
+        border: none;
+        }
+        .input{
+            padding: 2% 1%;
+            width: 60%;
+            margin-left:20%;
+        }
+        .box{
+            margin-left:20%;
+        }
+        .btn{
+            margin-left: 40%;
+            background-color: #0b847a;
+            border:none;
+            color: white;
+            padding: 2% 4%;
+            font-family: sans-serif;
+            border-radius: 8%;
+
+        }
+
+        .forgot,.signin{
+            margin-left: 20%;
+            text-decoration: none;
+        }
+        .forgot a,.signin a{
+            color: #57c7a6;
+            text-decoration: none ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="Login">Login</h1>
+        <p><input class="input" type="email" placeholder="Email"/></p>
+        <p><input class="input" type="password" placeholder="Password"/></p>
+        <p><input class="box" type="checkbox"> Show password</p>
+        <button  class="btn">SIGN IN</button>
+        <p class="forgot">
+            forgot <a href="">Username</a> / <a href="">Password</a>
+        </p>
+        <p class="signin">
+            Don't have any account<a href="">Sign Up</a>
+        </p>
+    </div>
+</body>
+</html>
